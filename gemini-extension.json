@@ -1,0 +1,15 @@
+{
+  "name": "redjudicial",
+  "version": "0.1.0",
+  "description": "Red Judicial — Plug-in legal chileno para Gemini CLI. Acceso al corpus oficial de jurisprudencia de la Corte Suprema, leyes vigentes BCN y doctrina académica chilena. Citas verificables.",
+  "mcpServers": {
+    "redjudicial": {
+      "command": "npx",
+      "args": ["-y", "@redjudicial/mcp-server@latest"],
+      "env": {
+        "REDJUDICIAL_API_URL": "https://ia.redjudicial.cl/mcp/v1"
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
