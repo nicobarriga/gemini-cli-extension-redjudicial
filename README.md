@@ -25,13 +25,14 @@ Esta extensión expone al Gemini CLI una sola herramienta: `redjudicial_search`.
 ## Requisitos previos
 
 1. **Gemini CLI instalado** ([instrucciones oficiales](https://github.com/google-gemini/gemini-cli)).
-2. **Node.js ≥ 18.17**.
-3. **Cuenta activa en Red Judicial** con un plan que incluya acceso al MCP (Independiente $19.90 USD/mes en adelante). Crea cuenta en [ia.redjudicial.cl](https://ia.redjudicial.cl).
+2. **Cuenta activa en Red Judicial** con un plan que incluya acceso al MCP (MCP Independiente, US$19,90/mes en adelante). Crea tu cuenta en [ia.redjudicial.cl](https://ia.redjudicial.cl).
+
+La extensión se conecta **directamente** al servidor de Red Judicial vía OAuth — no instala paquetes locales ni requiere claves de API. La primera vez, Gemini CLI abre el navegador para que inicies sesión en Red Judicial y autorices el acceso.
 
 ## Instalación
 
 ```bash
-gemini extension install https://github.com/nicobarriga/gemini-cli-extension-redjudicial
+gemini extensions install https://github.com/nicobarriga/gemini-cli-extension-redjudicial
 ```
 
 O agrégalo manualmente al directorio `~/.gemini/extensions/`.
