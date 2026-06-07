@@ -25,7 +25,7 @@ Esta extensión expone al Gemini CLI una sola herramienta: `redjudicial_search`.
 ## Requisitos previos
 
 1. **Gemini CLI instalado** ([instrucciones oficiales](https://github.com/google-gemini/gemini-cli)).
-2. **Cuenta activa en Red Judicial** con un plan que incluya acceso al MCP (MCP Independiente, US$19,90/mes en adelante). Crea tu cuenta en [ia.redjudicial.cl](https://ia.redjudicial.cl).
+2. **Cuenta en Red Judicial** — gratis para empezar. El plan gratuito incluye 10 consultas al mes (compartidas con el chat web); para uso intensivo, planes desde US$19,90/mes. Crea tu cuenta en [ia.redjudicial.cl](https://ia.redjudicial.cl).
 
 La extensión se conecta **directamente** al servidor de Red Judicial vía OAuth — no instala paquetes locales ni requiere claves de API. La primera vez, Gemini CLI abre el navegador para que inicies sesión en Red Judicial y autorices el acceso.
 
